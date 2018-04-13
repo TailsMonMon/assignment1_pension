@@ -8,8 +8,8 @@ namespace assignment1_pension {
     class Program {
         static void Main(string[] args) {
 
-            //      DEFINING SOM DATA
-            const int pensionsAlder = 65;   // Age of pension. This makes it easier to edit in case of any changes
+            //      DEFINING DATA
+            const int pensionsAlder = 65;   // Age of pension. This makes it easier to edit in case of changes
             int alder = 0;  // This will become the person's age once it's enterd
             string namn = "inget namn än";  // This will become the persons name once it's enterd
 
@@ -53,7 +53,7 @@ namespace assignment1_pension {
                 Console.WriteLine("Tack så mycket {0}. Ni har {1}år kvar tills pension.", namn, pensionsAlder - alder);
             }
 
-            Console.ReadLine();     // To prevent the console to close after the program is done
+            Console.ReadLine();
         }
     }
 }
